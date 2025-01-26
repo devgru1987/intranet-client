@@ -43,7 +43,56 @@ function App() {
       </section>
 
 
-      
+      <footer>
+        <div>
+          <div>
+            <div>
+              <img src={ IthubaUganda } alt="ithuba ugabda logo" />
+            </div>
+            <div>
+              <h3>Ithuba Uganda</h3>
+              <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Products & Services</li>
+                <li>News</li>
+                <li>Career</li>
+                <li>FAQs</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Products & Services</h3>
+              <ul>
+                <li>Bodas</li>
+                <li>Special Hire Taxis</li>
+                <li>Matatoo</li>
+                <li>Boat Engines</li>
+              </ul>
+            </div>
+            <div>
+              <a>Here to change lives</a>
+              <p> 
+                We are a team dedicated to keeping you focused on your life goals. We provide you with a starting point in the acquisition of 
+                revenue generating assets, to give you the power to not only visualize but have control over the shape of your future.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <p>© Ithuba Uganda. 2025 All rights reserved</p>
+            <div>
+              <ul>
+                <li>facebook</li>
+                <li>instagram</li>
+                <li>youtube</li>
+                <li>twitter</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
       
     </div>
   )
