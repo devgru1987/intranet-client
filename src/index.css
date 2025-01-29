@@ -1,8 +1,21 @@
+:root {
+  --purple: #68488e;
+  --lilac: #936ae1;
+  --kaki: #b2a6a1;
+  --torquise: #4a9bb5;
+  --mustad: #4a9bb5;
+  --pink: #ff66c5;
+  --greyish: #c0c2c4;
+}
+
 * {
   margin:0;
   padding:0;
   box-sizing: border-box;
+  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
+
+
 
 #container { width:100%; }
 
@@ -18,47 +31,85 @@ header {padding: 80px 0  10px 0; }
   flex-wrap: wrap;
 }
 
-ul.nav-list li { list-style: none; }
 
+li { list-style: none; }
 ul.nav-list li:not(:first-child) { margin-left: 10px; }
 
 
 
 
-
-
-
-
-.uppercase {
-  text-transform: uppercase;
+footer {
+  background-color: var(--purple);
+  color: var(--greyish);
 }
 
-.flex-column {
-  display: flex;
-  flex-direction: column
+.footer-btn {
+  font-size:1.3em;
+  padding: 15px 10px;
+  margin-bottom:20px;
+  border: 1px solid white;
+  background-color: transparent;
+  justify-content: space-between;
 }
 
-.flex-row {
-  display: flex
-}
+.footer-ul { margin-bottom: 50px; }
 
-.percentage-width-80 {
-  width:80%;
-}
+.footer-ul li{ margin-bottom:20px; }
 
-.percentage-width-85 {
-  width:85%;
-} 
+.flex-column { display: flex; flex-direction: column }
 
-.center-content-horizontal {
-  /* display:flex; */
-  justify-content: center;
-}
+.flex-row { display: flex }
 
-.outline {
-  outline: 1px solid red;
-}
+.margin-top-10 { margin-top: 10px;}
 
-.outline-black {
-  outline: 1px solid black;
-}
+.percentage-width-80 { width:80%; }
+
+.percentage-width-85 { width:85%; } 
+
+.percentage-width-90 { width: 90%;}
+
+.percentage-width-100 {  width:100%; }
+
+.center-content-horizontal { justify-content: center; }
+
+.relative-width-40 { width:45% }
+
+.relative-width-30 { width:25%; }
+
+.relative-width-20 { width:20%; }
+
+.relative-width-50 { width:50%}
+
+.justify-space-btn { justify-content: space-between; }
+
+.justify-left { justify-content: flex-end;}
+
+.outline { outline: 1px solid red; }
+
+.outline-black { outline: 1px solid black; }
+
+.padding-top-btm-20 {padding-top:100px; padding-bottom:100px}
+
+.footer-title { color: white;}
+
+.offset-top-space-40 { padding-top: 40px;}
+
+.offset-padding-10 {padding:10px}
+
+.cursor-pointer { cursor: pointer;}
+
+.thick-boder-btm { border-bottom: 4px solid var(--greyish)}
+
+img.list-style { width:10px; margin-right: 10px }
+
+img.list-style-large { width:20px; }
+
+.space-around{ justify-content: space-around; }
+
+li { cursor: pointer; }
+
+.uppercase {text-transform: uppercase; }
+
+.vertical-align-center { align-items: center;}
+
+.bold-fonts {   font-weight: bold; }

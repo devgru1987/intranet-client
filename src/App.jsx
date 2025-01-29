@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import LogoBanner from './assets/header.svg'
-import IthubaUganda from './assets/ithuba_uganda.svg'
+import IthubaUganda from './assets/ithuba.svg'
+import ListStyle from './assets/list_style.svg'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
@@ -43,53 +44,64 @@ function App() {
       </section>
 
 
-      <footer>
-        <div>
-          <div>
-            <div>
-              <img src={ IthubaUganda } alt="ithuba ugabda logo" />
+      <footer className="padding-top-btm-20">
+        <div className="flex-row center-content-horizontal">
+          <div className="flex-row percentage-width-90 justify-space-btn thick-boder-btm">
+            <div className="relative-width-40">
+              <img src={IthubaUganda} alt="ithuba ugabda logo" />
             </div>
-            <div>
-              <h3>Ithuba Uganda</h3>
-              <ul>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Products & Services</li>
-                <li>News</li>
-                <li>Career</li>
-                <li>FAQs</li>
-              </ul>
+
+            <div className="footer-navs flex-row relative-width-30 offset-top-space-40 space-around">
+              <div>
+                <h3 className="footer-title">Ithuba Uganda</h3>
+                <ul className="offset-padding-10 footer-ul">
+                  <li className="flex-row"><img src={ListStyle} alt="list style icon" className="list-style" />Home</li>
+                  <li className="flex-row"><img src={ListStyle} alt="list style icon" className="list-style" />About Us</li>
+                  <li className="flex-row"><img src={ListStyle} alt="list style icon" className="list-style" />Products & Services</li>
+                  <li className="flex-row"><img src={ListStyle} alt="list style icon" className="list-style" />News</li>
+                  <li className="flex-row"><img src={ListStyle} alt="list style icon" className="list-style" />Career</li>
+                  <li className="flex-row"><img src={ListStyle} alt="list style icon" className="list-style" />FAQs</li>
+                </ul>
+              </div>
+              <div>
+                <h3  className="footer-title">Products & Services</h3>
+                <ul className="offset-padding-10 footer-ul">
+                  <li className="flex-row"><img src={ListStyle} alt="list style icon" className="list-style" />Bodas</li>
+                  <li className="flex-row"><img src={ListStyle} alt="list style icon" className="list-style" />Special Hire Taxis</li>
+                  <li className="flex-row"><img src={ListStyle} alt="list style icon" className="list-style" />Matatoo</li>
+                  <li className="flex-row"><img src={ListStyle} alt="list style icon" className="list-style" />Boat Engines</li>
+                </ul>
+              </div>
             </div>
-            <div>
-              <h3>Products & Services</h3>
-              <ul>
-                <li>Bodas</li>
-                <li>Special Hire Taxis</li>
-                <li>Matatoo</li>
-                <li>Boat Engines</li>
-              </ul>
-            </div>
-            <div>
-              <a>Here to change lives</a>
+
+            <div className="relative-width-20">
+              <button  className="footer-title footer-btn cursor-pointer flex-row vertical-align-center bold-fonts percentage-width-100">
+                <span>Here to Change Lives</span>
+                <img src={ListStyle} className="list-style list-style-large" />
+              </button>
               <p> 
                 We are a team dedicated to keeping you focused on your life goals. We provide you with a starting point in the acquisition of 
                 revenue generating assets, to give you the power to not only visualize but have control over the shape of your future.
               </p>
             </div>
+
           </div>
         </div>
 
-        <div>
-          <div>
-            <p>© Ithuba Uganda. 2025 All rights reserved</p>
-            <div>
-              <ul>
-                <li>facebook</li>
-                <li>instagram</li>
-                <li>youtube</li>
-                <li>twitter</li>
-              </ul>
+        <div className="flex-row center-content-horizontal margin-top-10"> 
+          <div className="flex-row percentage-width-90 justify-left">
+            <div className="flex-row relative-width-50 justify-space-btn outline-black">
+              <p className="relative-width-50">© Ithuba Uganda. 2025 All rights reserved</p>
+              <div className="relative-width-40">
+                <ul className="flex-row">
+                  <li>facebook</li>
+                  <li>instagram</li>
+                  <li>youtube</li>
+                  <li>twitter</li>
+                </ul>
+              </div>
             </div>
+
           </div>
         </div>
       </footer>
