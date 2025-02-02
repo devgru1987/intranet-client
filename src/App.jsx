@@ -2,6 +2,7 @@ import { useState } from 'react'
 import LogoBanner from './assets/header.svg'
 import IthubaUganda from './assets/ithuba.svg'
 import ListStyle from './assets/list_style.svg'
+import CustomCarousel from './components/Carousel'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
@@ -39,8 +40,8 @@ function App() {
         </div>
       </header>
 
-      <section id="hero-unit">
-
+      <section className="carousel outline">
+        <CustomCarousel />
       </section>
 
 

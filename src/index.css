@@ -31,6 +31,10 @@ header {padding: 80px 0  10px 0; }
   flex-wrap: wrap;
 }
 
+/* .carousel {
+ height:600px;
+} */
+
 
 li { list-style: none; }
 ul.nav-list li:not(:first-child) { margin-left: 10px; }
@@ -101,8 +105,8 @@ footer {
 .thick-boder-btm { border-bottom: 4px solid var(--greyish)}
 
 img.list-style { width:10px; margin-right: 10px }
-
 img.list-style-large { width:20px; }
+/* img.carousel-img { width: 100%; } */
 
 .space-around{ justify-content: space-around; }
 
