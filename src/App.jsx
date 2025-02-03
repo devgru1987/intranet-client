@@ -3,6 +3,7 @@ import LogoBanner from './assets/header.svg'
 import IthubaUganda from './assets/ithuba.svg'
 import ListStyle from './assets/list_style.svg'
 import CustomCarousel from './components/Carousel'
+import Navigation from './components/Navigation'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
@@ -13,19 +14,19 @@ function App() {
   return (
     <div id="container">
       <header>
-        <div className="flex-row center-content-horizontal">
+        <div className="flex-row justify-center">
           <div className="flex-row percentage-width-85 admin-login">
             <a>Admin Login</a>
           </div>
         </div>
 
-        <div id="main-logo" className="flex-row center-content-horizontal">
+        <div id="main-logo" className="flex-row justify-center">
           <div id="ithuba-logo" className="percentage-width-80">
             <img src={LogoBanner} alt='banner' />
           </div>
         </div>
 
-        <div className="flex-row center-content-horizontal">
+        <div className="flex-row justify-center">
           <div className="flex-row percentage-width-80 header-nav"> 
             <h3>Welcome to <span className="uppercase">ithuba uganda</span></h3>
             <ul className="flex-row nav-list">
@@ -40,13 +41,17 @@ function App() {
         </div>
       </header>
 
-      <section className="carousel outline">
+      <section className="carousel">
         <CustomCarousel />
       </section>
 
+      <section className="main-navigation">
+       <Navigation />
+      </section>
 
-      <footer className="padding-top-btm-20">
-        <div className="flex-row center-content-horizontal">
+
+      <footer className="padding-top-btm-20 purple-bg-color greyish-text">
+        <div className="flex-row justify-center">
           <div className="flex-row percentage-width-90 justify-space-btn thick-boder-btm">
             <div className="relative-width-40">
               <img src={IthubaUganda} alt="ithuba ugabda logo" />
@@ -89,7 +94,7 @@ function App() {
           </div>
         </div>
 
-        <div className="flex-row center-content-horizontal margin-top-10"> 
+        <div className="flex-row justify-center margin-top-10"> 
           <div className="flex-row percentage-width-90 justify-left">
             <div className="flex-row relative-width-50 justify-space-btn outline-black">
               <p className="relative-width-50">© Ithuba Uganda. 2025 All rights reserved</p>
