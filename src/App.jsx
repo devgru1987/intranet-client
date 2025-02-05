@@ -4,6 +4,7 @@ import IthubaUganda from './assets/ithuba.svg'
 import ListStyle from './assets/list_style.svg'
 import CustomCarousel from './components/Carousel'
 import Navigation from './components/Navigation'
+import Highlights from './components/Highlights'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
@@ -48,6 +49,10 @@ function App() {
       <section className="main-navigation">
        <Navigation />
       </section>
+
+      <div>
+       <Highlights />
+      </div>
 
 
       <footer className="padding-top-btm-20 purple-bg-color greyish-text">
