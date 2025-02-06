@@ -5,6 +5,8 @@ import ListStyle from './assets/list_style.svg'
 import CustomCarousel from './components/Carousel'
 import Navigation from './components/Navigation'
 import Highlights from './components/Highlights'
+import QuickAccess from './components/QuickAccess'
+import WiseWords from './components/WiseWords'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
@@ -54,7 +56,16 @@ function App() {
        <Highlights />
       </div>
 
+      <div>
+       <QuickAccess />
+      </div>
 
+     {/* proverbs carousel */}
+     <section>
+      <WiseWords />
+     </section>
+
+     {/* footer */}
       <footer className="padding-top-btm-20 purple-bg-color greyish-text">
         <div className="flex-row justify-center">
           <div className="flex-row percentage-width-90 justify-space-btn thick-boder-btm">
@@ -62,7 +73,7 @@ function App() {
               <img src={IthubaUganda} alt="ithuba ugabda logo" />
             </div>
 
-            <div className="footer-navs flex-row relative-width-30 offset-top-space-40 space-around">
+            <div className="footer-navs flex-row relative-width-25 offset-top-space-40 space-around">
               <div>
                 <h3 className="footer-title">Ithuba Uganda</h3>
                 <ul className="offset-padding-10 footer-ul">
