@@ -7,6 +7,7 @@ import Navigation from './components/Navigation'
 import Highlights from './components/Highlights'
 import QuickAccess from './components/QuickAccess'
 import WiseWords from './components/WiseWords'
+import IVCSection from './components/IVCSection'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
@@ -59,6 +60,11 @@ function App() {
       <div>
        <QuickAccess />
       </div>
+
+      {/* ivc section */}
+      <section>
+       <IVCSection />
+      </section>
 
      {/* proverbs carousel */}
      <section>

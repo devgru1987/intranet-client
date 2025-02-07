@@ -70,12 +70,13 @@ div.resources > div {
 .margin-top-10 { margin-top: 10px;}
 .margin-top-btm-70 {margin-top: 70px; margin-bottom:70px}
 .margin-btm-10 {margin-bottom: 10px;}
+.margin-r {margin-right: 100px; }
 
 /* ========== width variations ========= */
 .percentage-width-80 { width:80%; }
 .percentage-width-85 { width:85%; } 
 .percentage-width-90 { width: 90%;}
-.percentage-width-100 {  width:100%; }
+.percentage-width-100 { width:100%; }
 .percentage-width-33 {width:33%}
 
 .relative-width-40 { width:45% }
@@ -84,6 +85,9 @@ div.resources > div {
 .relative-width-50 { width:50%}
 .relative-width-70 { width:80%}
 .relative-width-30 { width:20%; }
+.relative-width-40 {width:40%;}
+.relative-width-60 {width:60%;}
+
 
 .justify-space-btn { justify-content: space-between; }
 .justify-left { justify-content: flex-end;}
@@ -101,6 +105,7 @@ div.resources > div {
 .greyish-text { color: var(--greyish);}
 .white-text { color: white;}
 .purple-text { color:  var(--purple)}
+.kaki-text {color: var( --kaki)}
 .bold-fonts {   font-weight: bold; }
 .text-align-cntr {text-align:center}
 
@@ -122,6 +127,8 @@ div.resources > div {
 
 .thick-boder-btm { border-bottom: 4px solid var(--greyish)}
 .thick-border-btm-lilac { border-bottom: 4px solid var(--lilac)} /* var(--lilac) */
+.border-left-purple {border-left: 2px solid var(--purple); padding-left:20px;}
+
 
 /* ====== image styles ======= */
 img.list-style { width:10px; margin-right: 10px }
@@ -129,6 +136,7 @@ img.list-style-large { width:20px; }
 img.list-style-larger { width:40px; }
 img.nav-icons { width: 50px}
 img.full-space {width:100%}
+img.x-space {width:80%}
 img.inline-icons-level-1 {height:50px;}
 img.inline-icons-level-2 {height:120px;}
 
@@ -152,7 +160,7 @@ div.carousel-div {
 }
 
 .slide { 
- height: 400px;
+ height: 500px;
  font-weight: bold;
  font-size: 2em;
 }
