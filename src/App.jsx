@@ -8,6 +8,7 @@ import Highlights from './components/Highlights'
 import QuickAccess from './components/QuickAccess'
 import WiseWords from './components/WiseWords'
 import IVCSection from './components/IVCSection'
+import SocialCorner from './components/SocialCorner'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
@@ -60,6 +61,11 @@ function App() {
       <div>
        <QuickAccess />
       </div>
+
+     {/* social corner */}
+      <section>
+       <SocialCorner />
+      </section>
 
       {/* ivc section */}
       <section>

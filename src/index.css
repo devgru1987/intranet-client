@@ -70,10 +70,12 @@ div.resources > div {
 .margin-top-10 { margin-top: 10px;}
 .margin-top-btm-70 {margin-top: 70px; margin-bottom:70px}
 .margin-btm-10 {margin-bottom: 10px;}
+.margin-btm-20 {margin-bottom: 60px;}
 .margin-r {margin-right: 100px; }
 
 /* ========== width variations ========= */
 .percentage-width-80 { width:80%; }
+.percentage-width-20 { width:20%}
 .percentage-width-85 { width:85%; } 
 .percentage-width-90 { width: 90%;}
 .percentage-width-100 { width:100%; }
@@ -92,6 +94,7 @@ div.resources > div {
 .justify-space-btn { justify-content: space-between; }
 .justify-left { justify-content: flex-end;}
 .justify-center { justify-content: center; }
+.gap-10 {gap:10px}
 
 .initial-width-35 {flex-basis: 35%}
 .initial-width-30 {flex-basis: 30%}
@@ -105,7 +108,7 @@ div.resources > div {
 .greyish-text { color: var(--greyish);}
 .white-text { color: white;}
 .purple-text { color:  var(--purple)}
-.kaki-text {color: var( --kaki)}
+.kaki-text {color: var(--kaki)}
 .bold-fonts {   font-weight: bold; }
 .text-align-cntr {text-align:center}
 
@@ -115,11 +118,15 @@ div.resources > div {
 .padding-top-btm-30 {padding-top:30px; padding-bottom:30px}
 .padding-lr-10 {padding-left: 10px; padding-right:10px;}
 .padding-l-20 {padding-left: 50px;}
+.padding-l-10 {padding-left:10px}
+.padding-allsides-10 {padding:10px;}
+
 
 .offset-top-space-40 { padding-top: 40px;}
 .offset-padding-10 {padding:10px}
 .exco-margin { margin-bottom: 40px;}
-.padding-l-10 {padding-left:10px}
+.padding-r-20 {padding-left: 20px;}
+.margin-r-10 { margin-right:10px}
 
 .footer-title { color: white;}
 
@@ -128,6 +135,7 @@ div.resources > div {
 .thick-boder-btm { border-bottom: 4px solid var(--greyish)}
 .thick-border-btm-lilac { border-bottom: 4px solid var(--lilac)} /* var(--lilac) */
 .border-left-purple {border-left: 2px solid var(--purple); padding-left:20px;}
+.border-kaki {border: 1px solid var(--kaki)}
 
 
 /* ====== image styles ======= */
@@ -140,11 +148,19 @@ img.x-space {width:80%}
 img.inline-icons-level-1 {height:50px;}
 img.inline-icons-level-2 {height:120px;}
 
+
+.profile-width-50 {  width:50px;}
+
+.rounded-50 { border-radius: 50px;}
+.border-radius-5 { border-radius: 5px;}
+
+
 .space-around{ justify-content: space-around; }
 
 li { cursor: pointer; }
 
 .uppercase {text-transform: uppercase; }
+.capitalize {text-transform: capitalize;}
 
 .vertical-align-center { align-items: center;}
 .flex-cntr-vtcl-align {align-items:center}
@@ -164,6 +180,7 @@ div.carousel-div {
  font-weight: bold;
  font-size: 2em;
 }
+
 
 
 
