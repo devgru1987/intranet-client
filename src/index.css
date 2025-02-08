@@ -68,10 +68,15 @@ div.resources > div {
 .wrap {flex-wrap: wrap;}
 
 .margin-top-10 { margin-top: 10px;}
+
 .margin-top-btm-70 {margin-top: 70px; margin-bottom:70px}
-.margin-btm-10 {margin-bottom: 10px;}
-.margin-btm-20 {margin-bottom: 60px;}
+
 .margin-r {margin-right: 100px; }
+
+.margin-btm-md {margin-bottom: 50px}
+.margin-btm-20 {margin-bottom: 60px;}
+.margin-btm-10 {margin-bottom: 10px;}
+
 
 /* ========== width variations ========= */
 .percentage-width-80 { width:80%; }
@@ -80,6 +85,9 @@ div.resources > div {
 .percentage-width-90 { width: 90%;}
 .percentage-width-100 { width:100%; }
 .percentage-width-33 {width:33%}
+.percentage-width-50 { width:50%}
+
+
 
 .relative-width-40 { width:45% }
 .relative-width-25 { width:25%; }
@@ -94,6 +102,7 @@ div.resources > div {
 .justify-space-btn { justify-content: space-between; }
 .justify-left { justify-content: flex-end;}
 .justify-center { justify-content: center; }
+.justify-space-around {justify-content: space-around;}
 .gap-10 {gap:10px}
 
 .initial-width-35 {flex-basis: 35%}
@@ -115,11 +124,21 @@ div.resources > div {
 .outline-black { outline: 1px solid black; }
 
 .padding-top-btm-20 {padding-top:100px; padding-bottom:100px}
+.padding-top-btm-100 {padding-top:100px; padding-bottom:100px}
+.padding-lg-top {padding-top: 100px}
+.padding-md-top {padding-top: 50px}
+
+
+
 .padding-top-btm-30 {padding-top:30px; padding-bottom:30px}
 .padding-lr-10 {padding-left: 10px; padding-right:10px;}
 .padding-l-20 {padding-left: 50px;}
 .padding-l-10 {padding-left:10px}
 .padding-allsides-10 {padding:10px;}
+
+.padding-lr-md-50 { padding-left:50px; padding-right:50px;
+
+}
 
 
 .offset-top-space-40 { padding-top: 40px;}
@@ -170,6 +189,9 @@ h2.level-2-headings {color: var(--greyish); font-size: 1.2em}
 h3.level-3-headings {font-size: .9em;}
 h4 {text-align: center; padding-bottom: 10px; color:white}
 
+.font-sz-md{font-size:3em; }
+.font-sz-small{font-size:1.5em; }
+
 div.carousel-div {
  padding-bottom: 30px;
  position: relative;
@@ -180,6 +202,23 @@ div.carousel-div {
  font-weight: bold;
  font-size: 2em;
 }
+
+.relative-position {position:relative}
+.absolute-position {position:absolute}
+.position-obj {top: 0; left:0}
+
+.max-height {max-height: 400px;}
+.full-height-100 { height:100%}
+
+button.common-btn {
+ padding:10px 40px;
+ background-color:var( --purple) ;
+ border: none;
+ cursor: pointer;
+}
+
+
+
 
 
 

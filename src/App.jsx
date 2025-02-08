@@ -2,7 +2,7 @@ import { useState } from 'react'
 import LogoBanner from './assets/header.svg'
 import IthubaUganda from './assets/ithuba.svg'
 import ListStyle from './assets/list_style.svg'
-import CustomCarousel from './components/Carousel'
+import HeroUnit from './components/HeroUnit'
 import Navigation from './components/Navigation'
 import Highlights from './components/Highlights'
 import QuickAccess from './components/QuickAccess'
@@ -47,7 +47,7 @@ function App() {
       </header>
 
       <section className="carousel">
-        <CustomCarousel />
+        <HeroUnit />
       </section>
 
       <section className="main-navigation">
