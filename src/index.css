@@ -217,6 +217,21 @@ button.common-btn {
  cursor: pointer;
 }
 
+.active {
+ background-color: var(--purple);
+ padding: 5px 10px;
+ border-radius:5px;
+ color:white;
+}
+
+.pading-main-nav-5-10 {padding: 5px 10px; font-weight:bold}
+
+.no-underline {
+ text-decoration: none;
+}
+
+
+
 
 
 

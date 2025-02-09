@@ -20,13 +20,13 @@ const Header = () => (
       <div className="flex-row percentage-width-80 header-nav"> 
         <h3 className="kaki-text">Welcome to <span className="uppercase">ithuba uganda</span></h3>
         <ul className="flex-row nav-list">
-          <li><NavLink to={'/home'}>Home</NavLink></li>
-          <li><NavLink to={'/finance'}>Finance</NavLink></li>
-          <li><NavLink to={'/human resource'}>Human Resource</NavLink></li>
-          <li><NavLink to={'/paytronix'}>ICT</NavLink></li>
-          <li><NavLink to={'/marketing'}>Marketing</NavLink></li>
-          <li><NavLink to={'/operations'}>Operations</NavLink></li>
-          <li><NavLink to={'/sales'}>Sales</NavLink></li>
+          <li><NavLink to={'/home'} className="no-underline pading-main-nav-5-10">Home</NavLink></li>
+          <li><NavLink to={'/finance'} className="no-underline pading-main-nav-5-10">Finance</NavLink></li>
+          <li><NavLink to={'/human resource'} className="no-underline pading-main-nav-5-10">Human Resource</NavLink></li>
+          <li><NavLink to={'/paytronix'} className="no-underline pading-main-nav-5-10">ICT</NavLink></li>
+          <li><NavLink to={'/marketing'} className="no-underline pading-main-nav-5-10">Marketing</NavLink></li>
+          <li><NavLink to={'/operations'} className="no-underline pading-main-nav-5-10">Operations</NavLink></li>
+          <li><NavLink to={'/sales'} className="no-underline pading-main-nav-5-10">Sales</NavLink></li>
         </ul>
       </div>
     </div>
