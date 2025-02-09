@@ -10,9 +10,9 @@ function Navigation() {
   return (
     <nav className="purple-bg-color flex-row justify-center">
      <ul  className="flex-row justify-space-btn percentage-width-90 white-text bold-fonts">
-      <li className="flex-row vertical-align-center"><NavLink to={'/sharefolder'}><img src={ShareFolder} alt='shared folder' className="nav-icons "/>Shared Folder</NavLink></li>
+      <li className="flex-row vertical-align-center"><NavLink to={'/shared folder'}><img src={ShareFolder} alt='shared folder' className="nav-icons "/>Shared Folder</NavLink></li>
       <li className="flex-row vertical-align-center"><Link to="mailto:Servicedesk@ithubauganda.co.ug"><img src={HelpDesk} alt='help desk' className="nav-icons"/></Link>Help Desk</li>
-      <li className="flex-row vertical-align-center"><img src={Reports} alt='reports' className="nav-icons"/>Reports</li>
+      <li className="flex-row vertical-align-center"><NavLink to={'/calender'}><img src={Reports} alt='reports' className="nav-icons"/>Calender</NavLink></li>
       <li className="flex-row vertical-align-center"><NavLink to={'/gallery'}><img src={Gallery } alt='gallery' className="nav-icons"/>Gallery</NavLink></li>
       <li className="flex-row vertical-align-center"><img src={Training} alt='training'className="nav-icons"/>Training</li>
       <li className="flex-row vertical-align-center"><img src={TimeOff} alt='time off' className="nav-icons"/> Time Off</li>

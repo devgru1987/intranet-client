@@ -5,6 +5,15 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import ErrorPage from './components/ErrorPage.jsx';
 import Home from './components/Home.jsx';
+import Finance from './components/Finance.jsx';
+import HumanResource from './components/HumanResource.jsx';
+import Paytronix from './components/Paytronix.jsx';
+import Marketing from './components/Marketing.jsx';
+import Operations from './components/Operations.jsx';
+import Sales from './components/Sales.jsx';
+import SharedFolder from './components/SharedFolder.jsx';
+import Gallery from './components/Gallery.jsx';
+import Calender from './components/Calender.jsx';
 
 const router = createBrowserRouter([
   {
@@ -15,7 +24,7 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       {
         path:"/finance",
-        element: "Hello Finacne"
+        element: <Finance />
       },
       {
        path:"/home",
@@ -23,27 +32,35 @@ const router = createBrowserRouter([
      },
       {
         path:"/human resource",
-        element: "Hello HR"
+        element: <HumanResource />
       },
       {
         path:"/marketing",
-        element: "Hello Marketing"
+        element: <Marketing />
       },
       {
        path:"/paytronix",
-       element: "Hello paytronix"
+       element: <Paytronix />
      },
       {
         path:"/operations",
-        element: "Hello Hello Operations"
+        element: <Operations />
       },
       {
         path:"/sales",
-        element: "Hello Sales"
+        element: <Sales />
       },
       {
-       path: "/Shared Folder",
-       element: "Share folder"
+       path: "/shared folder",
+       element: <SharedFolder />
+      },
+      {
+       path: "/gallery",
+       element: <Gallery />
+      },
+      {
+       path: "/calender",
+       element: <Calender />
       }
    ],
   },

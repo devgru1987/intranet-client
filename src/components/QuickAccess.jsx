@@ -2,6 +2,7 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import ChainLink from '../assets/link.svg';
+import { NavLink } from "react-router-dom";
 
 import QA1 from '../assets/tests/qa-1.jpg'
 import QA2 from '../assets/tests/qa-2.jpg'
@@ -57,8 +58,8 @@ const QuickAccess = () => {
          <li className="flex-row vertical-align-center"><img src={ChainLink} alt="link icon" className="list-style-larger"/>HR Policies</li>
          <li className="flex-row vertical-align-center"><img src={ChainLink} alt="link icon" className="list-style-larger"/>News Updates</li>
          <li className="flex-row vertical-align-center"><img src={ChainLink} alt="link icon" className="list-style-larger"/>Employee Data</li>
-         <li className="flex-row vertical-align-center"><img src={ChainLink} alt="link icon" className="list-style-larger"/>Events Calender</li>
-         <li className="flex-row vertical-align-center"><img src={ChainLink} alt="link icon" className="list-style-larger"/>Gallery</li>
+         <li className="flex-row vertical-align-center"><NavLink to={'/calender'}><img src={ChainLink} alt="link icon" className="list-style-larger"/>Events Calender</NavLink></li>
+         <li className="flex-row vertical-align-center"><NavLink to={'/gallery'}><img src={ChainLink} alt="link icon" className="list-style-larger"/>Gallery</NavLink></li>
        </ul>
        <button>
         Update
