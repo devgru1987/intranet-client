@@ -9,7 +9,7 @@ const Sales = () => {
     {
      image: shotOne,
      title: 'Sales',
-     body: "The dynamic team of dataceneter operators working 24/7 to ensure 100% uptime of the Data center "
+     body: "The dynamic team of dataceneter operators working 24/7 to ensure 100% uptime of the Data center The dynamic team of dataceneter operators working 24/7 to ensure 100% uptime of the Data center The dynamic team of dataceneter operators working 24/7 to ensure 100% uptime of the Data center "
     }, 
 
     {

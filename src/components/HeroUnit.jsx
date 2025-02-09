@@ -1,6 +1,5 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-
 import HeroUnitSlide from "./HeroUnitSlide";
 
 const HeroUnit = ({slideImages}) => {
