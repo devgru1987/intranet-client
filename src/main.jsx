@@ -17,7 +17,7 @@ import Calender from './components/Calender.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/", /* root route*/
+    path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [

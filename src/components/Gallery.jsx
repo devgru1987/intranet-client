@@ -1,3 +1,5 @@
+/* https://www.npmjs.com/package/react-image-gallery */ 
+
 import Navigation from "./Navigation"
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from "react-image-gallery";
