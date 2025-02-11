@@ -14,6 +14,10 @@ import Sales from './components/Sales.jsx';
 import SharedFolder from './components/SharedFolder.jsx';
 import Gallery from './components/Gallery.jsx';
 import Calender from './components/Calender.jsx';
+import Admin from './components/Admin.jsx';
+import AdminCalender from './components/AdminCalender'
+import FileUploads from './components/FileUploads'
+import AdminGallery from './components/AdminGallery'
 
 const router = createBrowserRouter([
   {
@@ -61,6 +65,26 @@ const router = createBrowserRouter([
       {
        path: "/calender",
        element: <Calender />
+      },
+      {
+       path: "/admin",
+       element: <Admin />,
+       children: [
+         { index: true, element: <AdminCalender /> },
+         {
+           path: "calender",
+           element: <AdminCalender />
+         }, 
+         {
+           path: 'policies',
+           element: <FileUploads />
+         },
+         {
+          path: 'gallery',
+          element: <AdminGallery />
+        }
+
+       ]
       }
    ],
   },
