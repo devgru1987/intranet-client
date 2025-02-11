@@ -35,6 +35,8 @@ header {padding: 80px 0  10px 0; }
 }
 
 nav { height:80px; }
+.height-80 { height: 60px;}
+.height-30 {height:30px;}
 
 
 
@@ -86,6 +88,7 @@ div.resources > div {
 .percentage-width-100 { width:100%; }
 .percentage-width-33 {width:33%}
 .percentage-width-50 { width:50%}
+.percentage-width-70 { width:70%}
 
 
 
@@ -97,6 +100,8 @@ div.resources > div {
 .relative-width-30 { width:20%; }
 .relative-width-40 {width:40%;}
 .relative-width-60 {width:60%;}
+.relative-width-15 {width:15%;}
+.relative-width-10 {width:10%;}
 
 
 .justify-space-btn { justify-content: space-between; }
@@ -128,17 +133,15 @@ div.resources > div {
 .padding-lg-top {padding-top: 100px}
 .padding-md-top {padding-top: 50px}
 
-
-
 .padding-top-btm-30 {padding-top:30px; padding-bottom:30px}
 .padding-lr-10 {padding-left: 10px; padding-right:10px;}
 .padding-l-20 {padding-left: 50px;}
 .padding-l-10 {padding-left:10px}
 .padding-allsides-10 {padding:10px;}
 
-.padding-lr-md-50 { padding-left:50px; padding-right:50px;
+.padding-lr-md-50 { padding-left:50px; padding-right:50px;}
 
-}
+.pad-all-side { padding: 5px 10px;}
 
 
 .offset-top-space-40 { padding-top: 40px;}
@@ -228,6 +231,35 @@ button.common-btn {
 
 .no-underline { text-decoration: none; }
 
+.events-padding { padding: 10px; background-color: var(--mustad);}
+
+
+
+.admin-nav {
+ display:flex;
+ flex-grow:1;
+ border-right:1px solid grey; 
+}
+
+.adm-link {
+ width:100%;
+ height:100%;
+ border-radius:5px;
+ display:flex;
+ justify-content:center;
+ align-items: center;
+}
+
+
+.dp-border {
+ outline:1px solid red;
+}
+
+.event-input {
+ outline:none;
+ border-radius:5px;
+ border:1px solid grey;
+}
 
 
 
