@@ -27,6 +27,7 @@ const Header = () => (
           <li><NavLink to={'/marketing'} className="no-underline pading-main-nav-5-10">Marketing</NavLink></li>
           <li><NavLink to={'/operations'} className="no-underline pading-main-nav-5-10">Operations</NavLink></li>
           <li><NavLink to={'/sales'} className="no-underline pading-main-nav-5-10">Sales</NavLink></li>
+          <li><NavLink to={'/admin'} className="no-underline events-padding">Admin</NavLink></li>
         </ul>
       </div>
     </div>
