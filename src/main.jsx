@@ -16,7 +16,7 @@ import Gallery from './components/Gallery.jsx';
 import Calender from './components/Calender.jsx';
 import Admin from './components/Admin.jsx';
 import AdminCalender from './components/AdminCalender'
-import FileUploads from './components/FileUploads'
+import DocumentUpload from './components/DocumentUpload.jsx'
 import AdminGallery from './components/AdminGallery'
 
 const router = createBrowserRouter([
@@ -77,7 +77,7 @@ const router = createBrowserRouter([
          }, 
          {
            path: 'policies',
-           element: <FileUploads />
+           element: <DocumentUpload />
          },
          {
           path: 'gallery',
