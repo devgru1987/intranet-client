@@ -25,7 +25,8 @@
     "react-multi-carousel": "^2.8.5",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^7.1.5",
-    "react-simple-calendar-date-picker": "^1.0.24"
+    "react-simple-calendar-date-picker": "^1.0.24",
+    "react-upload-gallery": "^0.4.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
