@@ -12,7 +12,7 @@ const HeroUnit = ({slideImages}) => {
   };
 
   return (
-    <section>
+    <section >
       <Carousel responsive={responsive}>
        { 
          slideImages.map(slide => 

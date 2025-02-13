@@ -40,7 +40,7 @@ const QuickAccess = () => {
      <div className="relative-width-70">
       <h1 className="uppercase level-1-headings">Quick Access</h1>
       <div style={{ paddingBottom: '30px', position: 'relative' }}>
-        <Carousel responsive={responsive}  /*showDots={true}*/ infinite={true} autoPlaySpeed={3000}   autoPlay={true} rtl={true} centerMode={false}>
+        <Carousel responsive={responsive}  infinite={true} autoPlaySpeed={3000}   autoPlay={true} rtl={true} centerMode={false}>
           <div className="quick-access-carousel"><img src={QA1} /></div>
           <div className="quick-access-carousel"><img src={QA2} /></div>
           <div className="quick-access-carousel"><img src={QA3} /></div>
