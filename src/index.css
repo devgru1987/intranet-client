@@ -70,14 +70,12 @@ div.resources > div {
 .wrap {flex-wrap: wrap;}
 
 .margin-top-10 { margin-top: 10px;}
-
 .margin-top-btm-70 {margin-top: 70px; margin-bottom:70px}
-
 .margin-r {margin-right: 100px; }
-
 .margin-btm-md {margin-bottom: 50px}
 .margin-btm-20 {margin-bottom: 60px;}
 .margin-btm-10 {margin-bottom: 10px;}
+.margin-btm-5 {margin-bottom: 5px}
 
 
 /* ========== width variations ========= */
@@ -89,6 +87,9 @@ div.resources > div {
 .percentage-width-33 {width:33%}
 .percentage-width-50 { width:50%}
 .percentage-width-70 { width:70%}
+
+.width-40 {width: 40%}
+.width-20 {width:20%}
 
 
 
@@ -138,10 +139,15 @@ div.resources > div {
 .padding-l-20 {padding-left: 50px;}
 .padding-l-10 {padding-left:10px}
 .padding-allsides-10 {padding:10px;}
+.padding-r-10 {padding-right:10px;}
 
 .padding-lr-md-50 { padding-left:50px; padding-right:50px;}
 
 .pad-all-side { padding: 5px 10px;}
+
+.justify-text {
+ text-justify: inter-word;
+}
 
 
 .offset-top-space-40 { padding-top: 40px;}

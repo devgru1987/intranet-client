@@ -40,13 +40,13 @@ const Home = () => {
       <Highlights />
      </div>
 
-     <div>
+     {/* <div>
       <QuickAccess />
-     </div>
+     </div> */}
 
-     <section>
+     {/* <section>
       <SocialCorner />
-     </section>
+     </section> */}
 
      <section>
       <IVCSection />

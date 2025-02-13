@@ -41,7 +41,7 @@ const Highlights = () => {
      </article>
 
      <button>
-      Know More
+      {/* Know More */}
      </button>
     </div>
 
@@ -57,8 +57,14 @@ const Highlights = () => {
      </div>
 
      <button>
-      Know More
+      {/* Know More */}
      </button>
+
+
+     <h1 className="uppercase level-1-headings">About ithuba</h1>
+     <div>
+     <iframe width="420" height="315" src="https://www.youtube.com/embed/3ZjUA5gekHw"></iframe>
+     </div>
     </div>
 
 {/* 3/3 */}
