@@ -48,15 +48,15 @@ const Footer = () => (
 
     <div className="flex-row justify-center margin-top-10"> 
       <div className="flex-row percentage-width-90 justify-left">
-        <div className="flex-row relative-width-50 justify-space-btn outline-black">
+        <div className="flex-row relative-width-50 justify-space-btn">
           <p className="relative-width-50">© Ithuba Uganda. 2025 All rights reserved</p>
           <div className="relative-width-40">
-            <ul className="flex-row">
+            {/* <ul className="flex-row">
               <li>facebook</li>
               <li>instagram</li>
               <li>youtube</li>
               <li>twitter</li>
-            </ul>
+            </ul> */}
           </div>
         </div>
 
